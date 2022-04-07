@@ -1,0 +1,89 @@
+/*
+    API
+    /register : 
+                req:
+                    *username
+                    *password
+                    *file
+                tasks:
+                    *check username is valid
+                    *check username if exists
+                    *check password is valid
+                    *check avatar image is valid 
+                    *hashing password
+                    *write database
+                res:
+                    *give token
+                    
+    /login :
+            req:
+                *username
+                *password
+            tasks: 
+                *check username is valid
+                *check username if exists (if no send error)
+                *check password if valid
+            res:
+                *give token
+
+    /users :
+            res: 
+                * send all users' info without passw
+                
+    /videos :
+            res: 
+               *send all users' videos
+
+    /addvideo: 
+            req:
+                *userId
+                *file
+                *title
+                *token
+            tasks: 
+                *check if token is valid
+                *check if file is video
+                *check if video is valid(limit)
+                *add to user's video's database
+            res:
+                *msg
+
+    /deletevideo : 
+            req:
+                *videoID, userID, token
+            tasks:
+                *check if token is valid
+                *delete video from user's database 
+            res: 
+                *msg
+
+    /editvideoname: 
+            req: 
+                *videoId, token, videoTitle
+            tasks:
+                *check if token is valid
+                *edit video's name form database
+            res:
+                *msg
+
+    /logout : 
+            req: 
+                *token
+            tasks:
+                *check if token is valid
+            res: 
+                *delete token
+                *delete user and his videos from database
+
+    /search : 
+            req : 
+                *query
+            tasks: 
+                *check if token is valid
+                *parse query 
+                *search from videos' database
+            
+            response:
+                *send if video is available
+
+*/

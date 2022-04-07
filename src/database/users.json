@@ -1,0 +1,16 @@
+[
+    {
+        "userId": 1,
+        "username": "umid1",
+        "profileImg": "/images/1649247629963index.jpg",
+        "password": "181daf06190785567ffb4c122e7ca81e27b0f4fb0df0277baa6191762b2a114a",
+        "userCreatedAt": 1649247629965
+    },
+    {
+        "userId": 2,
+        "username": "umidjon",
+        "profileImg": "/images/1649306291927index.jpg",
+        "password": "cce0867f339bbb19b56267dab11d92abc0ba9ed407f0d22e4977dabe01f0536d",
+        "userCreatedAt": 1649306291930
+    }
+]

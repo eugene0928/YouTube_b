@@ -1,0 +1,18 @@
+[
+    {
+        "videoId": 1,
+        "userId": 1,
+        "videoTitle": "islomiy video",
+        "videoUrl": "/videos/1649247397528video_2022-04-06_14-37-16.mp4",
+        "videoSize": 1716469,
+        "videoCreatedAt": 1649247397529
+    },
+    {
+        "videoId": 4,
+        "userId": 2,
+        "videoTitle": "videoooo",
+        "videoUrl": "/videos/1649311687898video_2022-04-06_14-37-16.mp4",
+        "videoSize": 1716469,
+        "videoCreatedAt": 1649311687899
+    }
+]
